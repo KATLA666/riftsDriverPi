@@ -1,3 +1,4 @@
 *.o
 *.d
 /riftDriverPi
+rift-s-riftDriverPi
