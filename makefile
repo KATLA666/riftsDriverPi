@@ -16,7 +16,7 @@ all: riftDriverPi
 
 # Tool invocations
 riftDriverPi: $(OBJS)
-	gcc -pthread -o "riftDriverPi" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -pthread -o "rift-s-DriverPi" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo ' '
 
 # Other Targets

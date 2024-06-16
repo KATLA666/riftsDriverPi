@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "rift.h": "c",
+        "stdio.h": "c"
+    }
+}

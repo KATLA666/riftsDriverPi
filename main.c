@@ -7,6 +7,7 @@
 
 #include "hidapi.h"
 #include "rift.h"
+#include <sys/select.h>
 
 // ********************* Defines        ********************* //
 #define MAX_STR 255
@@ -65,7 +66,7 @@ int main(int argc, char* argv[])
   hid_init();
 
   // Open device (Oculus Rift CV1)
-  handle = hid_open(0x2833, 0x0031, NULL);
+  handle = hid_open(0x2833, 0x0051, NULL);
   if( handle == NULL )
   {
     wprintf(L"hid_open() failed. Oculus Rift CV1 connected? udev rule setup?\n");
