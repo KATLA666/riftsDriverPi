@@ -1,6 +1,7 @@
 # Work in progress
 
 This project is absoultly work in progress, rekognition works at the time, but no video
+There is an unresolved issue with the HDMI to DP adapter
 
 # riftDriverPi
 Small USB HID driver to activate Oculus Rift CV1 as extended display on Raspberry Pi 4. 
